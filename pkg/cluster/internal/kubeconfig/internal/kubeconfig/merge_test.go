@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	"sigs.k8s.io/kind/pkg/internal/assert"
+	"github.com/lsutils/kind/pkg/internal/assert"
 )
 
 func TestMerge(t *testing.T) {

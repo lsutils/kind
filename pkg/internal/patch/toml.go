@@ -25,7 +25,7 @@ import (
 	toml "github.com/pelletier/go-toml"
 	yaml "gopkg.in/yaml.v3"
 
-	"sigs.k8s.io/kind/pkg/errors"
+	"github.com/lsutils/kind/pkg/errors"
 )
 
 // TOML patches toPatch with the patches (should be TOML merge patches) and patches6902 (should be JSON 6902 patches)

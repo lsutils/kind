@@ -20,10 +20,10 @@ import (
 	"io"
 	"os"
 
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/lsutils/kind/pkg/log"
 
-	"sigs.k8s.io/kind/pkg/internal/cli"
-	"sigs.k8s.io/kind/pkg/internal/env"
+	"github.com/lsutils/kind/pkg/internal/cli"
+	"github.com/lsutils/kind/pkg/internal/env"
 )
 
 // NewLogger returns the standard logger used by the kind CLI

@@ -19,7 +19,7 @@ package errors
 import (
 	"errors"
 
-	"sigs.k8s.io/kind/pkg/internal/sets"
+	"github.com/lsutils/kind/pkg/internal/sets"
 )
 
 /*

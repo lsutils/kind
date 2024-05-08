@@ -20,7 +20,7 @@ import (
 	"context"
 	"io"
 
-	"sigs.k8s.io/kind/pkg/exec"
+	"github.com/lsutils/kind/pkg/exec"
 )
 
 // containerCmder implements exec.Cmder for docker containers

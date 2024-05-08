@@ -20,14 +20,14 @@ package kubeadminit
 import (
 	"strings"
 
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/exec"
+	"github.com/lsutils/kind/pkg/errors"
+	"github.com/lsutils/kind/pkg/exec"
 
-	"sigs.k8s.io/kind/pkg/cluster/nodeutils"
+	"github.com/lsutils/kind/pkg/cluster/nodeutils"
 
-	"sigs.k8s.io/kind/pkg/cluster/internal/create/actions"
-	"sigs.k8s.io/kind/pkg/internal/apis/config"
-	"sigs.k8s.io/kind/pkg/internal/version"
+	"github.com/lsutils/kind/pkg/cluster/internal/create/actions"
+	"github.com/lsutils/kind/pkg/internal/apis/config"
+	"github.com/lsutils/kind/pkg/internal/version"
 )
 
 // kubeadmInitAction implements action for executing the kubeadm init

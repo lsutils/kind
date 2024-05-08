@@ -22,8 +22,8 @@ import (
 	"regexp"
 	"strings"
 
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/internal/sets"
+	"github.com/lsutils/kind/pkg/errors"
+	"github.com/lsutils/kind/pkg/internal/sets"
 )
 
 // similar to valid docker container names, but since we will prefix

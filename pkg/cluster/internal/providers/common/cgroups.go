@@ -23,8 +23,8 @@ import (
 	"regexp"
 	"sync"
 
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/exec"
+	"github.com/lsutils/kind/pkg/errors"
+	"github.com/lsutils/kind/pkg/exec"
 )
 
 var nodeReachedCgroupsReadyRegexp *regexp.Regexp

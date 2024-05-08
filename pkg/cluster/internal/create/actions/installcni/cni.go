@@ -23,12 +23,12 @@ import (
 
 	"github.com/google/safetext/yamltemplate"
 
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/internal/apis/config"
+	"github.com/lsutils/kind/pkg/errors"
+	"github.com/lsutils/kind/pkg/internal/apis/config"
 
-	"sigs.k8s.io/kind/pkg/cluster/internal/create/actions"
-	"sigs.k8s.io/kind/pkg/cluster/nodeutils"
-	"sigs.k8s.io/kind/pkg/internal/patch"
+	"github.com/lsutils/kind/pkg/cluster/internal/create/actions"
+	"github.com/lsutils/kind/pkg/cluster/nodeutils"
+	"github.com/lsutils/kind/pkg/internal/patch"
 )
 
 type action struct{}

@@ -19,7 +19,7 @@ package nodeimage
 import (
 	"io"
 
-	"sigs.k8s.io/kind/pkg/exec"
+	"github.com/lsutils/kind/pkg/exec"
 )
 
 type containerdImporter struct {

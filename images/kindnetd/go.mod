@@ -1,4 +1,4 @@
-module sigs.k8s.io/kind/images/kindnetd
+module github.com/lsutils/kind/images/kindnetd
 
 go 1.18
 

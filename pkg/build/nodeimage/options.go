@@ -17,7 +17,7 @@ limitations under the License.
 package nodeimage
 
 import (
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/lsutils/kind/pkg/log"
 )
 
 // Option is a configuration option supplied to Build

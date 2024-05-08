@@ -21,21 +21,21 @@ import (
 	"path/filepath"
 	"sort"
 
-	"sigs.k8s.io/kind/pkg/cmd/kind/version"
+	"github.com/lsutils/kind/pkg/cmd/kind/version"
 
-	"sigs.k8s.io/kind/pkg/cluster/constants"
-	"sigs.k8s.io/kind/pkg/cluster/nodes"
-	"sigs.k8s.io/kind/pkg/cluster/nodeutils"
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/lsutils/kind/pkg/cluster/constants"
+	"github.com/lsutils/kind/pkg/cluster/nodes"
+	"github.com/lsutils/kind/pkg/cluster/nodeutils"
+	"github.com/lsutils/kind/pkg/errors"
+	"github.com/lsutils/kind/pkg/log"
 
-	internalcreate "sigs.k8s.io/kind/pkg/cluster/internal/create"
-	internaldelete "sigs.k8s.io/kind/pkg/cluster/internal/delete"
-	"sigs.k8s.io/kind/pkg/cluster/internal/kubeconfig"
-	internalproviders "sigs.k8s.io/kind/pkg/cluster/internal/providers"
-	"sigs.k8s.io/kind/pkg/cluster/internal/providers/docker"
-	"sigs.k8s.io/kind/pkg/cluster/internal/providers/nerdctl"
-	"sigs.k8s.io/kind/pkg/cluster/internal/providers/podman"
+	internalcreate "github.com/lsutils/kind/pkg/cluster/internal/create"
+	internaldelete "github.com/lsutils/kind/pkg/cluster/internal/delete"
+	"github.com/lsutils/kind/pkg/cluster/internal/kubeconfig"
+	internalproviders "github.com/lsutils/kind/pkg/cluster/internal/providers"
+	"github.com/lsutils/kind/pkg/cluster/internal/providers/docker"
+	"github.com/lsutils/kind/pkg/cluster/internal/providers/nerdctl"
+	"github.com/lsutils/kind/pkg/cluster/internal/providers/podman"
 )
 
 // DefaultName is the default cluster name

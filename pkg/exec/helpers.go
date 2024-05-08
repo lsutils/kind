@@ -25,7 +25,7 @@ import (
 
 	"github.com/alessio/shellescape"
 
-	"sigs.k8s.io/kind/pkg/errors"
+	"github.com/lsutils/kind/pkg/errors"
 )
 
 // PrettyCommand takes arguments identical to Cmder.Command,

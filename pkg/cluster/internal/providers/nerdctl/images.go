@@ -21,13 +21,13 @@ import (
 	"strings"
 	"time"
 
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/exec"
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/lsutils/kind/pkg/errors"
+	"github.com/lsutils/kind/pkg/exec"
+	"github.com/lsutils/kind/pkg/log"
 
-	"sigs.k8s.io/kind/pkg/cluster/internal/providers/common"
-	"sigs.k8s.io/kind/pkg/internal/apis/config"
-	"sigs.k8s.io/kind/pkg/internal/cli"
+	"github.com/lsutils/kind/pkg/cluster/internal/providers/common"
+	"github.com/lsutils/kind/pkg/internal/apis/config"
+	"github.com/lsutils/kind/pkg/internal/cli"
 )
 
 // ensureNodeImages ensures that the node images used by the create

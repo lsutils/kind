@@ -19,7 +19,7 @@ package kubeconfig
 import (
 	"testing"
 
-	"sigs.k8s.io/kind/pkg/internal/assert"
+	"github.com/lsutils/kind/pkg/internal/assert"
 )
 
 func TestKINDClusterKey(t *testing.T) {

@@ -24,10 +24,10 @@ import (
 
 	"github.com/google/safetext/yamltemplate"
 
-	"sigs.k8s.io/kind/pkg/errors"
+	"github.com/lsutils/kind/pkg/errors"
 
-	"sigs.k8s.io/kind/pkg/internal/apis/config"
-	"sigs.k8s.io/kind/pkg/internal/version"
+	"github.com/lsutils/kind/pkg/internal/apis/config"
+	"github.com/lsutils/kind/pkg/internal/version"
 )
 
 // ConfigData is supplied to the kubeadm config template, with values populated

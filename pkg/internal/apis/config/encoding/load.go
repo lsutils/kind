@@ -22,10 +22,10 @@ import (
 
 	yaml "gopkg.in/yaml.v3"
 
-	"sigs.k8s.io/kind/pkg/apis/config/v1alpha4"
-	"sigs.k8s.io/kind/pkg/errors"
+	"github.com/lsutils/kind/pkg/apis/config/v1alpha4"
+	"github.com/lsutils/kind/pkg/errors"
 
-	"sigs.k8s.io/kind/pkg/internal/apis/config"
+	"github.com/lsutils/kind/pkg/internal/apis/config"
 )
 
 // Load reads the file at path and attempts to convert into a `kind` Config; the file

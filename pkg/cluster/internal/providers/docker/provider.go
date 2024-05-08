@@ -25,18 +25,18 @@ import (
 	"path/filepath"
 	"strings"
 
-	"sigs.k8s.io/kind/pkg/cluster/nodes"
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/exec"
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/lsutils/kind/pkg/cluster/nodes"
+	"github.com/lsutils/kind/pkg/errors"
+	"github.com/lsutils/kind/pkg/exec"
+	"github.com/lsutils/kind/pkg/log"
 
-	internallogs "sigs.k8s.io/kind/pkg/cluster/internal/logs"
-	"sigs.k8s.io/kind/pkg/cluster/internal/providers"
-	"sigs.k8s.io/kind/pkg/cluster/internal/providers/common"
-	"sigs.k8s.io/kind/pkg/cluster/nodeutils"
-	"sigs.k8s.io/kind/pkg/internal/apis/config"
-	"sigs.k8s.io/kind/pkg/internal/cli"
-	"sigs.k8s.io/kind/pkg/internal/sets"
+	internallogs "github.com/lsutils/kind/pkg/cluster/internal/logs"
+	"github.com/lsutils/kind/pkg/cluster/internal/providers"
+	"github.com/lsutils/kind/pkg/cluster/internal/providers/common"
+	"github.com/lsutils/kind/pkg/cluster/nodeutils"
+	"github.com/lsutils/kind/pkg/internal/apis/config"
+	"github.com/lsutils/kind/pkg/internal/cli"
+	"github.com/lsutils/kind/pkg/internal/sets"
 )
 
 // NewProvider returns a new provider based on executing `docker ...`

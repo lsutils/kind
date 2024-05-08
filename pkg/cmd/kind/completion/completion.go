@@ -22,11 +22,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"sigs.k8s.io/kind/pkg/cmd"
-	"sigs.k8s.io/kind/pkg/cmd/kind/completion/bash"
-	"sigs.k8s.io/kind/pkg/cmd/kind/completion/fish"
-	"sigs.k8s.io/kind/pkg/cmd/kind/completion/zsh"
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/lsutils/kind/pkg/cmd"
+	"github.com/lsutils/kind/pkg/cmd/kind/completion/bash"
+	"github.com/lsutils/kind/pkg/cmd/kind/completion/fish"
+	"github.com/lsutils/kind/pkg/cmd/kind/completion/zsh"
+	"github.com/lsutils/kind/pkg/log"
 )
 
 // NewCommand returns a new cobra.Command for cluster creation

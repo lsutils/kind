@@ -22,8 +22,8 @@ import (
 	"io"
 	"strings"
 
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/exec"
+	"github.com/lsutils/kind/pkg/errors"
+	"github.com/lsutils/kind/pkg/exec"
 )
 
 // nodes.Node implementation for the docker provider

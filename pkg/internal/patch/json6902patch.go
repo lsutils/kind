@@ -21,9 +21,9 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"sigs.k8s.io/kind/pkg/errors"
+	"github.com/lsutils/kind/pkg/errors"
 
-	"sigs.k8s.io/kind/pkg/internal/apis/config"
+	"github.com/lsutils/kind/pkg/internal/apis/config"
 )
 
 type json6902Patch struct {

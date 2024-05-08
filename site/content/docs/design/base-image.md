@@ -32,5 +32,5 @@ a Kubernetes node image, has near exclusively packages we need, and has
 relatively up to date packages.
 We strive to minimize the image size where possible.
 
-[base image]: https://sigs.k8s.io/kind/images/base
-[dockerfile]: https://sigs.k8s.io/kind/images/base/Dockerfile
+[base image]: https://github.com/lsutils/kind/images/base
+[dockerfile]: https://github.com/lsutils/kind/images/base/Dockerfile

@@ -24,14 +24,14 @@ import (
 	"strings"
 	"time"
 
-	"sigs.k8s.io/kind/pkg/cluster/constants"
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/exec"
-	"sigs.k8s.io/kind/pkg/fs"
+	"github.com/lsutils/kind/pkg/cluster/constants"
+	"github.com/lsutils/kind/pkg/errors"
+	"github.com/lsutils/kind/pkg/exec"
+	"github.com/lsutils/kind/pkg/fs"
 
-	"sigs.k8s.io/kind/pkg/cluster/internal/loadbalancer"
-	"sigs.k8s.io/kind/pkg/cluster/internal/providers/common"
-	"sigs.k8s.io/kind/pkg/internal/apis/config"
+	"github.com/lsutils/kind/pkg/cluster/internal/loadbalancer"
+	"github.com/lsutils/kind/pkg/cluster/internal/providers/common"
+	"github.com/lsutils/kind/pkg/internal/apis/config"
 )
 
 // planCreation creates a slice of funcs that will create the containers

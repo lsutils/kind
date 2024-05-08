@@ -24,14 +24,14 @@ import (
 	"strings"
 	"time"
 
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/exec"
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/lsutils/kind/pkg/errors"
+	"github.com/lsutils/kind/pkg/exec"
+	"github.com/lsutils/kind/pkg/log"
 
-	"sigs.k8s.io/kind/pkg/build/nodeimage/internal/container/docker"
-	"sigs.k8s.io/kind/pkg/build/nodeimage/internal/kube"
-	"sigs.k8s.io/kind/pkg/internal/sets"
-	"sigs.k8s.io/kind/pkg/internal/version"
+	"github.com/lsutils/kind/pkg/build/nodeimage/internal/container/docker"
+	"github.com/lsutils/kind/pkg/build/nodeimage/internal/kube"
+	"github.com/lsutils/kind/pkg/internal/sets"
+	"github.com/lsutils/kind/pkg/internal/version"
 )
 
 const (

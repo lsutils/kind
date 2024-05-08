@@ -23,9 +23,9 @@ import (
 	"strings"
 	"testing"
 
-	"sigs.k8s.io/kind/pkg/fs"
+	"github.com/lsutils/kind/pkg/fs"
 
-	"sigs.k8s.io/kind/pkg/internal/assert"
+	"github.com/lsutils/kind/pkg/internal/assert"
 )
 
 func TestPaths(t *testing.T) {

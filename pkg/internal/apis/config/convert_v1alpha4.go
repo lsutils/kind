@@ -17,7 +17,7 @@ limitations under the License.
 package config
 
 import (
-	v1alpha4 "sigs.k8s.io/kind/pkg/apis/config/v1alpha4"
+	v1alpha4 "github.com/lsutils/kind/pkg/apis/config/v1alpha4"
 )
 
 // Convertv1alpha4 converts a v1alpha4 cluster to a cluster at the internal API version
@@ -57,7 +57,7 @@ func convertv1alpha4Node(in *v1alpha4.Node, out *Node) {
 	out.ExtraPortMappings = make([]PortMapping, len(in.ExtraPortMappings))
 	out.KubeadmConfigPatchesJSON6902 = make([]PatchJSON6902, len(in.KubeadmConfigPatchesJSON6902))
 	out.ExtraMountsMappings = in.ExtraMountsMappings
-	
+
 	for i := range in.ExtraMounts {
 		convertv1alpha4Mount(&in.ExtraMounts[i], &out.ExtraMounts[i])
 	}
