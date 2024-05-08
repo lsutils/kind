@@ -244,6 +244,7 @@ func runArgsForNode(node *config.Node, clusterIPFamily config.ClusterIPFamily, n
 
 	// convert mounts and port mappings to container run args
 	args = append(args, generateMountBindings(node.ExtraMounts...)...)
+	args = append(args, generateMountMappings(node.ExtraMountsMappings)...)
 	mappingArgs, err := generatePortMappings(clusterIPFamily, node.ExtraPortMappings...)
 	if err != nil {
 		return nil, err
@@ -257,6 +258,13 @@ func runArgsForNode(node *config.Node, clusterIPFamily config.ClusterIPFamily, n
 
 	// finally, specify the image to run
 	return append(args, node.Image), nil
+}
+func generateMountMappings(mounts []string) []string {
+	args := make([]string, 0, len(mounts))
+	for _, m := range mounts {
+		args = append(args, fmt.Sprintf("--mount=%s", m))
+	}
+	return args
 }
 
 func runArgsForLoadBalancer(cfg *config.Cluster, name string, args []string) ([]string, error) {

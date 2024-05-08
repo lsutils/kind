@@ -94,6 +94,8 @@ type Node struct {
 	// These may be used to bind a hostPath
 	ExtraMounts []Mount
 
+	ExtraMountsMappings []string
+
 	// ExtraPortMappings describes additional port mappings for the node container
 	// binded to a host Port
 	ExtraPortMappings []PortMapping
